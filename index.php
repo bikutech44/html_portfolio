@@ -542,6 +542,7 @@ include 'include.php';
               <a href="https://www.facebook.com/bikram.kumal.02" target="_blank"><i class="fa-brands fa-facebook"></i></a>
               <a href="https://www.twitter.com/jaq_bk" target="_blank"><i class="fa-brands fa-twitter"></i></a>
               <a href="https://www.instagram.com/jaquard.bikram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/bikutech44/html_portfolio"><i class="fa-brands fa-github"></i></a>
             </h3>
 
             <br>
