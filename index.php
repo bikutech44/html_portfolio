@@ -18,7 +18,7 @@ include 'include.php';
 
     // send function
     $mail = new PHPMailer(true);
-    $to = 'bikutech44@gmail.com';
+    $to = 'example@gmail.com';
 
     if(isset($_POST['submit'])){
       $nam = $_POST['1name'];
@@ -40,14 +40,14 @@ include 'include.php';
         $mail->isSMTP();                                            //Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'userverify.info@gmail.com';                     //SMTP username
-        $mail->Password   = 'iecavzquwgkqmcim';                               //SMTP password
+        $mail->Username   = 'example@gmail.com';                     //SMTP username
+        $mail->Password   = 'iecavzquwgkqmci11m';                               //SMTP password
         $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
       
         //Recipients
         // $mail->setFrom($email, $nam);
-        $mail->setFrom('userverify.info@gmail.com', 'Portfolio Mail : '.$nam);
+        $mail->setFrom('example@gmail.com', 'Portfolio Mail : '.$nam);
         $mail->addAddress($to);     //Add a recipient
        
         
